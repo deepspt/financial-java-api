@@ -35,6 +35,7 @@ import io.swagger.annotations.ApiOperation;
 @RequestMapping("/financial/v1/statistics")
 public class StatisticController {
 	
+	
 	private StatisticService statisticService;
 	
 	private TransactionService transactionService;
